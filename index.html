@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Visitas Digital - Gabriel Vinícius</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .cartao {
+            width: 400px;
+            background-color: #ffffff;
+            border: 3px solid #008000;
+            border-top: 3px solid #008000;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            margin-top: 50px;
+            padding-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cartao-esquerda {
+            background-color: #008000;
+            color: #ffffff;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .cartao-esquerda .foto-perfil {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 3px solid #ffffff;
+            object-fit: cover;
+        }
+
+        .cartao-esquerda h1 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        .cartao-esquerda p {
+            font-size: 1.2rem;
+            margin: 0;
+            color: #ffffff;
+        }
+
+        .cartao-direita {
+            padding: 25px;
+        }
+
+        .cartao-direita section {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .cartao-direita h2 {
+            color: #008000;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #ff0000;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .cartao-direita .info-contato,
+        .cartao-direita .social-links {
+            padding: 0;
+            margin: 0;
+        }
+
+        .cartao-direita .info-contato li,
+        .cartao-direita .social-links li {
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+
+        .social-links a {
+            color: #ff0000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .social-links a:hover {
+            color: #008000;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="cartao">
+            <div class="cartao-esquerda">
+                <img src="images/gabriel.jpg" alt="Foto de Perfil" class="foto-perfil">
+                <h1>Gabriel Vinícius da Silva Correia</h1>
+                <p>Futuro Engenheiro de Software</p>
+            </div>
+            <div class="cartao-direita">
+                <section>
+                    <h2>Informações de Contato</h2>
+                    <ul class="info-contato">
+                        <li><b>Telefone:</b> (85) 98817-1797</li>
+                        <li><b>E-mail:</b> gabriel.vinicius@aluno.ifce.edu.br</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Redes Sociais</h2>
+                    <ul class="social-links">
+                        <li><a href="https://www.instagram.com/gabrielviniciussc/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/gabriel-vinicius-bb726a32b/" target="_blank">LinkedIn</a></li>
+                    </ul>
+                </section>
+                <footer>
+                    &copy; 2024 Gabriel Vinícius da Silva Correia - Todos os direitos reservados
+                </footer>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
