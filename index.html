@@ -26,7 +26,7 @@
         }
 
         .cartao-esquerda {
-            background-color: #006400; /* Verde escuro */
+            background-color: #006400;
             color: #ffffff;
             padding: 20px;
             border-radius: 15px 15px 0 0;
@@ -72,12 +72,14 @@
         .info-contato {
             margin: 20px 0;
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
         }
 
         .info-item {
             text-align: center;
             width: 48%;
+            box-sizing: border-box;
         }
 
         .info-item img {
@@ -88,6 +90,7 @@
         .info-item p {
             margin: 5px 0 0 0;
             font-size: 1rem;
+            word-wrap: break-word;
         }
 
         .info-social {
@@ -144,13 +147,13 @@
             <div class="info-contato">
                 <div class="info-item">
                     <img src="images/telefone.jpg" alt="Ícone de Telefone">
-                    <p><b>Telefone:</b></p>
+                    <p><strong>Telefone:</strong></p>
                     <p>(85) 98817-1797</p>
                 </div>
                 <div class="info-item">
                     <img src="images/email.png" alt="Ícone de E-mail">
-                    <p><b>E-mail:</b></p>
-                    <p>gabriel.vinicius@aluno.ifce.edu.br</p>
+                    <p><strong>E-mail:</strong></p>
+                    <p style="word-break: break-word;">gabriel.vinicius@aluno.ifce.edu.br</p>
                 </div>
             </div>
             <h2>Redes Sociais</h2>
